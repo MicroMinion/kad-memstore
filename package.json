@@ -1,0 +1,32 @@
+{
+  "name": "kad-memstore",
+  "version": "0.0.1",
+  "description": "in-memory kad storage adapter for testing and simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordonwritescode/kad-memstore.git"
+  },
+  "keywords": [
+    "kad",
+    "memory",
+    "storage",
+    "testing"
+  ],
+  "author": "Gordon Hall <gordon@gordonwritescode.com>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gordonwritescode/kad-memstore/issues"
+  },
+  "homepage": "https://github.com/gordonwritescode/kad-memstore#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "readable-stream": "^2.0.5"
+  }
+}
