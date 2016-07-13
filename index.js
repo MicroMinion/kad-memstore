@@ -41,8 +41,9 @@ KadMemStore.prototype.get = function(key, callback) {
  */
 KadMemStore.prototype.put = function(key, value, callback) {
   this._store[key] = value;
-
-  setImmediate(callback);
+  if(callback) {
+    setImmediate(callback);
+  }
 };
 
 /**
@@ -54,7 +55,9 @@ KadMemStore.prototype.put = function(key, value, callback) {
 KadMemStore.prototype.del = function(key, callback) {
   delete this._store[key];
 
-  setImmediate(callback);
+  if(callback) {
+    setImmediate(callback);
+  }
 };
 
 /**
