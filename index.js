@@ -7,6 +7,7 @@
 var ReadableStream = require('readable-stream');
 var assert = require('assert');
 var _ = require('lodash');
+var setImmediate = require('async.util.setimmediate');
 
 /**
  * Creates an in-memory kad storage adapter
