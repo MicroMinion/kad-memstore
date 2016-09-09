@@ -1,6 +1,6 @@
 {
   "name": "kad-memstore-thomas",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "in-memory kad storage adapter for testing and simulation",
   "main": "index.js",
   "scripts": {
